@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1001,
+    "createdAt": "2026-10-01T07:42:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "ТОВ «Вікна Поділля»",
+      "phone": "+380671234501"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 1200,
+        "height": 1500,
+        "quantity": 4
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 600,
+        "height": 1500,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "createdAt": "2026-10-02T11:05:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "Мар'яна Коваль",
+      "phone": "+380501234502"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 1450,
+        "height": 1370,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "createdAt": "2026-10-03T09:30:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "Андрій Шевчук",
+      "phone": "+380631234503"
+    },
+    "items": []
+  },
+  {
+    "id": 1004,
+    "createdAt": "2026-10-06T13:12:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "ФОП Петренко О. В.",
+      "phone": "+380971234504"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 900,
+        "height": 1200,
+        "quantity": 6
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 900,
+        "height": 600,
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "createdAt": "2026-10-07T08:20:00.000Z",
+    "status": "in_progress",
+    "client": {
+      "name": "Ірина Бондар",
+      "phone": "+380661234505"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 300,
+        "height": 400,
+        "quantity": 8
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 1200,
+        "height": 1500,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "createdAt": "2026-10-08T15:47:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "ТОВ «БудКомфорт»",
+      "phone": "+380441234506"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 4,
+          "name": "Двокамерний енергозберігаючий 4-10-4-10-4i",
+          "pricePerM2": 1650
+        },
+        "width": 1450,
+        "height": 1370,
+        "quantity": 6
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 5,
+          "name": "Триплекс 44.1-16-4",
+          "pricePerM2": 2400
+        },
+        "width": 2100,
+        "height": 1550,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "createdAt": "2026-10-10T10:03:00.000Z",
+    "status": "in_progress",
+    "client": {
+      "name": "Олег Мельник",
+      "phone": "+380681234507"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 2000,
+        "height": 1500,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "createdAt": "2026-10-13T07:55:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "Юлія Ткаченко",
+      "phone": "+380991234508"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 1000,
+        "height": 500,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "createdAt": "2026-10-14T12:31:00.000Z",
+    "status": "in_progress",
+    "client": {
+      "name": "ТОВ «Теплий дім»",
+      "phone": "+380731234509"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 4,
+          "name": "Двокамерний енергозберігаючий 4-10-4-10-4i",
+          "pricePerM2": 1650
+        },
+        "width": 1800,
+        "height": 1400,
+        "quantity": 10
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 4,
+          "name": "Двокамерний енергозберігаючий 4-10-4-10-4i",
+          "pricePerM2": 1650
+        },
+        "width": 800,
+        "height": 1400,
+        "quantity": 10
+      },
+      {
+        "id": 3,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 400,
+        "height": 400,
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "createdAt": "2026-10-16T09:14:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "Сергій Кравець",
+      "phone": "+380951234510"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 5,
+          "name": "Триплекс 44.1-16-4",
+          "pricePerM2": 2400
+        },
+        "width": 3000,
+        "height": 3000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "createdAt": "2026-10-17T14:40:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "Мар'ян Дячук",
+      "phone": "+380671234511"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 707,
+        "height": 707,
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 100,
+        "height": 3000,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "createdAt": "2026-10-20T08:08:00.000Z",
+    "status": "in_progress",
+    "client": {
+      "name": "Наталія Лисенко",
+      "phone": "+380501234512"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 2000,
+        "height": 1600,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 1200,
+        "height": 1500,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "createdAt": "2026-10-21T16:22:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "ФОП Гнатюк І. М.",
+      "phone": "+380631234513"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 1250,
+        "height": 1450,
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "createdAt": "2026-10-23T10:50:00.000Z",
+    "status": "done",
+    "client": {
+      "name": "Ольга Савчук",
+      "phone": "+380971234514"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 500,
+        "height": 500,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "createdAt": "2026-10-27T07:36:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "ТОВ «Скло-Сервіс Захід»",
+      "phone": "+380441234515"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 4,
+          "name": "Двокамерний енергозберігаючий 4-10-4-10-4i",
+          "pricePerM2": 1650
+        },
+        "width": 1600,
+        "height": 2100,
+        "quantity": 8
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 5,
+          "name": "Триплекс 44.1-16-4",
+          "pricePerM2": 2400
+        },
+        "width": 1200,
+        "height": 2500,
+        "quantity": 4
+      },
+      {
+        "id": 3,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 600,
+        "height": 600,
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "createdAt": "2026-10-29T11:18:00.000Z",
+    "status": "in_progress",
+    "client": {
+      "name": "Віталій Остапчук",
+      "phone": "+380661234516"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 1350,
+        "height": 1450,
+        "quantity": 3
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 2,
+          "name": "Однокамерний енергозберігаючий 4-16-4i",
+          "pricePerM2": 1150
+        },
+        "width": 650,
+        "height": 1450,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "createdAt": "2026-11-02T09:02:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "Катерина Рудь",
+      "phone": "+380681234517"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 450,
+        "height": 900,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "createdAt": "2026-11-03T13:44:00.000Z",
+    "status": "new",
+    "client": {
+      "name": "Богдан Іванишин",
+      "phone": "+380991234518"
+    },
+    "items": [
+      {
+        "id": 1,
+        "glassType": {
+          "id": 1,
+          "name": "Однокамерний 4-16-4",
+          "pricePerM2": 850
+        },
+        "width": 1200,
+        "height": 1500,
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "glassType": {
+          "id": 3,
+          "name": "Двокамерний 4-10-4-10-4",
+          "pricePerM2": 1350
+        },
+        "width": 2000,
+        "height": 1500,
+        "quantity": 1
+      }
+    ]
+  }
+]
