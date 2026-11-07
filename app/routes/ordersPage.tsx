@@ -12,7 +12,7 @@ export async function loader({ request }: Route.LoaderArgs) {
   return { orders: await getOrders(q, status), q, status };
 }
 
-export function Orders({ loaderData }: Route.ComponentProps) {
+export default function Orders({ loaderData }: Route.ComponentProps) {
   const { orders, q, status } = loaderData;
   const loading = useNavigation().state !== "idle";
   return (
