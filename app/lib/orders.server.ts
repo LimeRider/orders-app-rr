@@ -22,3 +22,26 @@ export async function getOrder(id: number) {
   await delay();
   return orders.find((o) => o.id === id) ?? null;
 }
+
+export const glassTypes = [
+  ...new Map(
+    orders.flatMap((o) => o.items).map((i) => [i.glassType.id, i.glassType]),
+  ).values(),
+];
+
+export async function createOrder(
+  name: string,
+  phone: string,
+  items: Order["items"],
+) {
+  await delay();
+  const order: Order = {
+    id: Math.max(...orders.map((o) => o.id)) + 1,
+    createdAt: new Date().toISOString(),
+    status: "new",
+    client: { name, phone },
+    items,
+  };
+  orders.push(order);
+  return order;
+}

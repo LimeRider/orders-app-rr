@@ -17,7 +17,15 @@ export default function Orders({ loaderData }: Route.ComponentProps) {
   const loading = useNavigation().state !== "idle";
   return (
     <main className="mx-auto max-w-5xl p-4">
-      <h1 className="mb-4 text-2xl font-bold">Замовлення</h1>
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+        <h1 className="text-2xl font-bold">Замовлення</h1>
+        <Link
+          to="/orders/new"
+          className="rounded bg-blue-600 px-4 py-2 text-white"
+        >
+          + Нове замовлення
+        </Link>
+      </div>
 
       <Form key={q + status} className="mb-4 flex flex-wrap gap-2">
         <input
